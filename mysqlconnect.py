@@ -9,7 +9,7 @@ conn = mysql.connector.connect(
 
 cursor = conn.cursor()
 
-cursor.execute("SELECT * FROM employee")
+cursor.execute("SELECT * FROM student")
 
 for row in cursor.fetchall():
     print(row)
